@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="8" y1="6" x2="57" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B8CFF"/>
+      <stop offset="0.52" stop-color="#5663F7"/>
+      <stop offset="1" stop-color="#7B4DDB"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="15" y1="12" x2="45" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#DCE7FF" stop-opacity="0.82"/>
+    </linearGradient>
+    <filter id="shadow" x="-12" y="-10" width="88" height="90" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#2536A6" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="7" y="7" width="50" height="50" rx="16" fill="url(#brand)"/>
+    <path d="M42.5 19H27.1C21.9 19 18.5 21.8 18.5 26.1C18.5 30 21.3 32.3 26.8 32.9L35.2 33.8C41 34.4 44 36.8 44 41.1C44 46.1 40 49 33.5 49H19.5" stroke="url(#shine)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M45.5 15.5L49 19L52.5 15.5L49 12L45.5 15.5Z" fill="#FFD66B"/>
+  </g>
+</svg>
